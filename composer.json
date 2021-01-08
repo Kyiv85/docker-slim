@@ -1,0 +1,28 @@
+{
+    "name": "slim/slim-skeleton",
+    "description": "A Slim Framework skeleton application for rapid development",
+    "keywords": ["microframework","rest","router", "psr7"],
+    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "info@joshlockhart.com",
+            "homepage": "http://www.joshlockhart.com/"
+        }
+    ],
+    "require": {
+        "slim/slim": "3.*",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "phpunit/phpunit": "*",
+        "php-curl-class/php-curl-class": "^8.9",
+        "jwilsson/spotify-web-api-php": "^4.2"
+    },
+    "autoload": {
+	"psr-4": {
+    	    "Aivo\\": "src/",
+    	    "Tests\\": "tests/"
+	}
+    }
+}
